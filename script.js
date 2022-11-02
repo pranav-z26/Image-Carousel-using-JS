@@ -33,7 +33,7 @@ for(var i=0;i<indicators.length;i++)
 
 
 function showSlide(n){
-  document.getElementById("carousel-img").src = `/images/img-${n}.jpg`;
+  document.getElementById("carousel-img").src = `images/img-${n}.jpg`;
 }
 
 function previousSlide(){
